@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import NavBar from './nav-bar';
+
+const Title = () => {
+  return (
+    <div>
+      <NavBar/>
+      <div className="title container-fluid text-center">
+        <h1>Kalyan Chavali</h1>
+        <p>Software Developer III at Workday</p>
+      </div>
+    </div>
+    
+  );
+};
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Title />,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
