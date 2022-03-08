@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kalyan-ch.github.io/static/css/main.d909bec5.css",
+    "main.js": "/kalyan-ch.github.io/static/js/main.ee0a476f.js",
+    "index.html": "/kalyan-ch.github.io/index.html",
+    "main.d909bec5.css.map": "/kalyan-ch.github.io/static/css/main.d909bec5.css.map",
+    "main.ee0a476f.js.map": "/kalyan-ch.github.io/static/js/main.ee0a476f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d909bec5.css",
+    "static/js/main.ee0a476f.js"
+  ]
+}
