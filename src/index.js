@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import NavBar from './nav-bar';
+import NavBar from './NavBar';
 
 const Title = () => {
   return (
@@ -12,7 +12,6 @@ const Title = () => {
         <p>Software Developer III at Workday</p>
       </div>
     </div>
-    
   );
 };
 
