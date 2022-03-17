@@ -1,5 +1,7 @@
 body {
-  background-color: #202833;
+  background-color: #1A2238;
+
+  color: #FFFFFF;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,13 +16,21 @@ code {
 }
 
 .title{
-  padding-top: 100px;
-  padding-bottom: 70px;
-  color: #C5C6C8;
-  border-bottom: 2px solid #66FCF0;
+  border-bottom: 2px solid #FF6A3D;
+}
+
+.title h1{
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  color: #FF6A3D;
+}
+
+.title h3{
+  font-family: 'Roboto', sans-serif;
+  color: #7f8bcc;
 }
 
 .main-nav{
-  background-color: #45A39D;
-  color: #202833;
+  background-color: #9DAAF2;
+  color: #1A2238;
 }
