@@ -4,13 +4,15 @@ import './index.css';
 import NavBar from './NavBar';
 import Section from './Section';
 import ExperienceTab from './ExperienceTab';
+import AboutSection from './AboutSection';
+
 
 const Title = () => {
   return (
     <div>
       <NavBar/>
-      <div className="title container-fluid p-5 my-5">
-        <span>Hello! My name is</span>
+      <div className="title container p-5 my-5">
+        <h5>Hey 👋 everyone! I'm</h5>
         <h1>Kalyan Chavali</h1>
         <h3>Full Stack Software Engineer</h3>
         <p>I am a software engineer building high quality software<br/>
@@ -18,14 +20,18 @@ const Title = () => {
         At present, I'm working in financial planning part of Workday!</p>
       </div>
       <Section>
-        <h1>Experience</h1>
+        <h2>About me</h2>
+        <AboutSection />
+      </Section>
+      <Section>
+        <h2>Experience</h2>
         <ExperienceTab />
       </Section>
       <Section>
-        <h1>Skills</h1>
+        <h2>Skills</h2>
       </Section>
       <Section>
-        <h1>Education</h1>
+        <h2>Education</h2>
       </Section>
     </div>
   );
